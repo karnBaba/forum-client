@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=8.10"
+    "node": "12.16.x"
   },
   "author": "Sami Wardhan Karn",
   "license": "ISC",
