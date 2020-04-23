@@ -16,7 +16,7 @@ console.log("server url", process.env.SERVER_URL);
 //const SERVER_URL = "http://localhost:4000/graphql";
 
 dotenv.config();
-const serverUrl = process.env.REACT_APP_API_URL || SERVER_URL;
+const serverUrl = process.env.REACT_APP_API_URL;
 const client = initApolloClient(serverUrl);
 
 render(
