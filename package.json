@@ -7,6 +7,9 @@
     "build": "react-scripts build",
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "Sami Wardhan Karn",
   "license": "ISC",
   "dependencies": {
