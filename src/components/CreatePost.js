@@ -19,7 +19,7 @@ import {
   HOME_PAGE_POSTS_LIMIT
 } from "../constants/dataLimit";
 
-import { useGlobalMessage } from "./hooks/useGlobalMessage";
+//import { useGlobalMessage } from "./hooks/useGlobalMessage";
 
 const Root = styled(Container)`
   border: 0;
