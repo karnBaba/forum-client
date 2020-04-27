@@ -16,8 +16,7 @@ import { useStore } from "../store/index";
 
 import {
   PROFILE_PAGE_POSTS_LIMIT,
-  HOME_PAGE_POSTS_LIMIT,
-  MAX_POST_IMAGE_SIZE,
+  HOME_PAGE_POSTS_LIMIT
 } from "../constants/dataLimit";
 
 import { useGlobalMessage } from "./hooks/useGlobalMessage";
@@ -86,7 +85,7 @@ const CreatePost = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [error, setError] = useState("");
 
-  const message = useGlobalMessage();
+  // const message = useGlobalMessage();
 
   const handleReset = () => {
     setTitle("");
